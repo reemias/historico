@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>historico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <input type="text" id="servico" class="inserir_serviço" placeholder="Serviço">
+        <input type="date" id="data_servico" class="inserir_serviço" placeholder="Data do Serviço">
+        <input type="number" id="valor" class="inserir_valor" placeholder="Valor">
+        <button id="adicionar">Adicionar</button>
+        <button id="deletar">imprimir </button>
+    </header>
+
+    <main>
+        <div class="tabela">
+            <p>Serviços Prestados</p>
+            <p>Data do Serviço Prestado</p>
+            <p>Valor Cobrado</p>
+        </div>
+        
+        <div class="box_histórico" id="historico">
+        </div>
+    </main>
+
+    <footer>
+        <h1>sistema da cooperativa i9</h1>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
