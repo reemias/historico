@@ -6,8 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebdb85;
-    
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: #333;
 }
 
@@ -101,7 +100,7 @@ main {
 footer {
     height: 60px;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #082644;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +110,7 @@ footer {
 
 footer h1 {
     font-size: 1.2em;
-    color: #007bff;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 668px) {
