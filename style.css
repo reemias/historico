@@ -56,7 +56,8 @@ main {
     width: 80%;
     max-width: 800px;
     margin-bottom: 20px;
-    color: rgb(7, 7, 7);
+    
+    color: #f6f7f8;
 }
 
 .box_histórico {
