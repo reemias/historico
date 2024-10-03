@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ebdb85;
+    
     color: #333;
 }
 
@@ -50,11 +51,13 @@ main {
 }
 
 .tabela {
+    
     display: flex;
     justify-content: space-around;
     width: 80%;
     max-width: 800px;
     margin-bottom: 20px;
+    color: rgb(7, 7, 7);
 }
 
 .box_histórico {
@@ -103,11 +106,42 @@ footer {
     justify-content: center;
     align-items: center;
     border-top: 2px solid #e0e0e0;
-    position: absolute;
     bottom: 0;
 }
 
 footer h1 {
     font-size: 1.2em;
     color: #007bff;
+}
+
+@media (max-width: 668px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header input {
+        margin: 10px;
+    }
+
+    header button {
+        margin-top: 10px;
+    }
+
+    .box_histórico {
+        width: 100%;
+    }
+
+    .historico-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .historico-item p {
+        margin: 5px 0;
+    }
+
+    button {
+        margin: 10px 0; /* Aumenta o espaçamento entre os botões */
+    }
 }
