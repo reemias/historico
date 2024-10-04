@@ -10,14 +10,21 @@
 <body>
 
     <header>
-        <a href="https://reemias.github.io/nota-fiscal/">
-            <button style="background-color: rgb(34, 151, 10); ">EMITIR NOTA FISCAL</button>
-        </a>
+        <section>
+            <div class="dropdown">
+                <button style="background-color: red;">Menu</button>
+                <div class="dropdown-content">
+                    <a href="https://reemias.github.io/nota-fiscal/" target="_blank">Emitir Nota Fiscal</a>
+                    <a href="https://exemplo.com/fazer-orcamento" target="_blank">Fazer Orçamento</a>
+                    <a href="https://exemplo.com/suporte-ti" target="_blank">Suporte T.I</a>
+                </div>
+            </div>
+        </section>
         <input type="text" id="servico" class="inserir_serviço" placeholder="Serviço">
         <input type="date" id="data_servico" class="inserir_serviço" placeholder="Data do Serviço">
         <input type="number" id="valor" class="inserir_valor" placeholder="Valor">
-        <button  id="adicionar">Adicionar</button>
-        <button id="imprimir">imprimir </button>
+        <button id="adicionar">Adicionar</button>
+        <button id="imprimir">imprimir</button>
     </header>
 
     <main>
